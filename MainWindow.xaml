@@ -1,12 +1,12 @@
-﻿<Window x:Class="puzzle.MainWindow"
+﻿<Window x:Class="Puzzle.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:src="clr-namespace:puzzle.MUMS"
+        xmlns:src="clr-namespace:Puzzle.MUMS"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Frame>
             <Frame.Content>
-                <src:Breakthrough/>
+                <src:Entropy/>
             </Frame.Content>
         </Frame>
     </Grid>

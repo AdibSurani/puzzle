@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace puzzle.MUMS
+namespace Puzzle.MUMS
 {
     /// <summary>
     /// Interaction logic for Breakthrough.xaml
@@ -23,9 +23,12 @@ namespace puzzle.MUMS
         public Breakthrough()
         {
             InitializeComponent();
-            const string input = "tlg wVBtslAidcq oGrLDygoDok chzusR ONBpI nDoa jDk xsfdiAh bqI zfy kfDj wrmGxjc rd Hzu lhcv ga nmEBt sM skf oHvuIE pj ydv oGBAg snmidv ga nCjD iAtoadC ta gpbam Cqpbpgun hwe yql kFmGonbkjx hzkafcw rfadxoDp gtgpbgua tSEBtbqKsdr cqenBw";
+            const string input =
+                "tlg wVBtslAidcq oGrLDygoDok chzusR ONBpI nDoa jDk xsfdiAh bqI zfy kfDj " +
+                "wrmGxjc rd Hzu lhcv ga nmEBt sM skf oHvuIE pj ydv oGBAg snmidv ga nCjD " +
+                "iAtoadC ta gpbam Cqpbpgun hwe yql kFmGonbkjx hzkafcw rfadxoDp gtgpbgua " +
+                "tSEBtbqKsdr cqenBw";
             MainTextBox.Text = Decode(input);
-            
         }
 
         static string Decode(string input)
