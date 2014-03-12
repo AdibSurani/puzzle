@@ -56,6 +56,9 @@
     <Compile Include="MUMS\Entropy.xaml.cs">
       <DependentUpon>Entropy.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MUMS\Seating Plan.xaml.cs">
+      <DependentUpon>Seating Plan.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utility\Primes.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -74,6 +77,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MUMS\Entropy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MUMS\Seating Plan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,6 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MUMS\Seating Plan.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

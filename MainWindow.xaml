@@ -6,7 +6,7 @@
     <Grid>
         <Frame>
             <Frame.Content>
-                <src:Entropy/>
+                <src:Seating_Plan/>
             </Frame.Content>
         </Frame>
     </Grid>
